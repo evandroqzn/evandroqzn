@@ -1,0 +1,40 @@
+name: generate animation
+
+on:
+  # Roda automaticamente a cada 24 horas
+  schedule:
+    - cron: "0 */24 * * *"
+  
+  # Permite executar manualmente na aba Actions
+  workflow_dispatch:
+  
+  # Roda a cada push na branch main
+  push:
+    branches:
+    - main
+
+jobs:
+  generate:
+    permissions: 
+      contents: write # ⚠️ Esta permissão permite gerar a nova branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      # Gera o gráfico de contribuição
+      - name: generate-snake-game-from-github-contribution-grid
+        uses: Platane/snk/repository-snake-game-builder@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/bomberman-contribution-graph.svg?game=bomberman
+            dist/bomberman-contribution-graph-dark.svg?palette=github-dark&game=bomberman
+
+      # Envia os arquivos gerados para a branch pacman-output
+      - name: push bomberman-contribution-graph.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: pacman-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
