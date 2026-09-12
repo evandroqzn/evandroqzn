@@ -68,12 +68,16 @@ Building web solutions and exploring core technology fundamentals.
 
 <br clear="both">
 
-<!-- Centraliza e limita o tamanho para não poluir -->
 <p align="center">
   <picture data-importer="pacman">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/evandroqzn/evandroqzn/pacman-output/bomberman-contribution-graph-dark.svg?game=bomberman">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/evandroqzn/evandroqzn/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
-    <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/evandroqzn/evandroqzn/pacman-output/bomberman-contribution-graph.svg?game=bomberman" width="80%">
+    <!-- Apontando para o arquivo DARK v2 -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/evandroqzn/evandroqzn/pacman-output/bomberman-contribution-dark-v2.svg?game=bomberman">
+    
+    <!-- Apontando para o arquivo LIGHT v2 -->
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/evandroqzn/evandroqzn/pacman-output/bomberman-contribution-v2.svg?game=bomberman">
+    
+    <!-- Imagem padrão apontando para o arquivo v2 -->
+    <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/evandroqzn/evandroqzn/pacman-output/bomberman-contribution-v2.svg?game=bomberman" width="80%">
   </picture>
 </p>
 
