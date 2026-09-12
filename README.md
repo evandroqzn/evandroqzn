@@ -66,10 +66,24 @@ Building web solutions and exploring core technology fundamentals.
 
 <br/><br/>
 
+<br clear="both">
+
+<!-- Centraliza e limita o tamanho para não poluir -->
+<p align="center">
+  <picture data-importer="pacman">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/evandroqzn/evandroqzn/pacman-output/bomberman-contribution-graph-dark.svg?game=bomberman">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/evandroqzn/evandroqzn/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
+    <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/evandroqzn/evandroqzn/pacman-output/bomberman-contribution-graph.svg?game=bomberman" width="80%">
+  </picture>
+</p>
+
+<br/><br/>
+
 ![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=evandroqzn&langs_count=4&theme=radical)
 ![GitHub stats](https://github-stats-extended.vercel.app/api?username=evandroqzn&theme=radical)
 
 <br/><br/>
+
 ---
 ###
 
