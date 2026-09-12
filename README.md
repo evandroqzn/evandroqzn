@@ -66,13 +66,8 @@ Building web solutions and exploring core technology fundamentals.
 
 <br/><br/>
 
-
-<p align="left">
-
-[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=evandroqzn&theme=radical)](https://github.com/stats-organization/github-stats-extended)
-</p>
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=evandroqzn)](https://git.io/streak-stats)
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=evandroqzn&langs_count=4&theme=radical)
+![GitHub stats](https://github-stats-extended.vercel.app/api?username=evandroqzn&theme=radical)
 
 <br/><br/>
 ---
