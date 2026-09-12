@@ -17,7 +17,7 @@
 
 ---
 
-### 🎯 Sobre Mim
+###  Sobre Mim
 - 🎓 Estudante focado em **Desenvolvimento de Software** e **Web Development**.
 - 🛡️ Tenho forte interesse em **Cibersegurança** e boas práticas de desenvolvimento seguro.
 - 🚀 Buscando minha primeira oportunidade no mercado de TI (**Estágio / Aprendiz / Junior**).
@@ -25,7 +25,7 @@
 
 ---
 
-### 🛠️ Competências Técnicas
+###  Competências Técnicas
 
 **Linguagens & Frontend**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -41,17 +41,9 @@
 
 ---
 
-### 📊 Estatísticas do GitHub
 
-<p align="left">
 
-  
-[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=evandroqzn&theme=radical)](https://github.com/stats-organization/github-stats-extended)
-</p>
-
----
-
-### 📬 Conecte-se Comigo
+###  Conecte-se Comigo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/evandro-silva7)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:evnadrosilvadin@gmail.com)
 
@@ -64,7 +56,7 @@
 
 Building web solutions and exploring core technology fundamentals.
 
-### 🎯 About Me
+###  About Me
 - 🎓 Student focused on **Software Development** and **Web Technologies**.
 - 🛡️ Passionate about **Cybersecurity** and secure coding practices.
 - 🚀 Actively seeking entry-level opportunities (**Internship / Junior Role**).
@@ -75,8 +67,15 @@ Building web solutions and exploring core technology fundamentals.
 <br/><br/>
 
 
+<p align="left">
+
+[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=evandroqzn&theme=radical)](https://github.com/stats-organization/github-stats-extended)
+</p>
+
 [![GitHub Streak](https://streak-stats.demolab.com/?user=evandroqzn)](https://git.io/streak-stats)
-<br/>
+
+<br/><br/>
+---
 ###
 
 <br clear="both">
