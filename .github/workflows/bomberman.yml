@@ -1,14 +1,9 @@
 name: generate animation
 
 on:
-  # Roda automaticamente a cada 24 horas
   schedule:
     - cron: "0 */24 * * *"
-  
-  # Permite executar manualmente na aba Actions
   workflow_dispatch:
-  
-  # Roda a cada push na branch main
   push:
     branches:
     - main
@@ -16,14 +11,14 @@ on:
 jobs:
   generate:
     permissions: 
-      contents: write # ⚠️ Esta permissão permite gerar a nova branch
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      # Gera o gráfico de contribuição
+      # Action corrigida para Platane/snk@v3
       - name: generate-snake-game-from-github-contribution-grid
-        uses: Platane/snk/repository-snake-game-builder@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
