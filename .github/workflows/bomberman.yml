@@ -1,35 +1,36 @@
 name: generate animation
 
 on:
+  # Executa automaticamente a cada 24 horas
   schedule:
     - cron: "0 */24 * * *"
+  
+  # Permite disparar manualmente na aba Actions
   workflow_dispatch:
+  
+  # Executa a cada push feito na branch main
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
     permissions: 
-      contents: write
+      contents: write # Permissão necessária para criar e atualizar a branch pacman-output
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-  # Action com os parâmetros explícitos para Bomberman
-  - name: generate-bomberman-game-from-github-contribution-grid
-    uses: Platane/snk@v3
-    with:
-      github_user_name: ${{ github.repository_owner }}
-      outputs: |
-        dist/bomberman-contribution-graph.svg?game=bomberman
-        dist/bomberman-contribution-graph-dark.svg?palette=github-dark&game=bomberman
+      # Gera o gráfico de contribuição no tema Bomberman
+      - name: generate-bomberman-game-from-github-contribution-grid
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/bomberman-contribution-graph.svg?game=bomberman
+            dist/bomberman-contribution-graph-dark.svg?palette=github-dark&game=bomberman
 
-  # Envia os arquivos gerados (igual)
-  - name: push bomberman-contribution-graph.svg to the output branch
-    uses: crazy-max/ghaction-github-pages@v3.1.0
-
-      # Envia os arquivos gerados para a branch pacman-output
+      # Publica os arquivos SVG na branch pacman-output
       - name: push bomberman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
